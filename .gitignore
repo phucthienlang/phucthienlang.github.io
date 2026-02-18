@@ -1,0 +1,67 @@
+# --- GOOGLE DRIVE & SYSTEM TEMP ---
+~*
+.DS_Store
+Thumbs.db
+.*.tmp.drive*
+.tmp.drive*
+sync.ffs_db
+
+# --- FILES HÌNH ẢNH & THỰC THI ---
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.exe
+
+# --- SKETCHUP SPECIFIC ---
+*.skb
+*.skp.bak
+
+# --- CÁC THƯ MỤC THƯ VIỆN & BUILD ---
+
+# Ruby (PTL Tools / SketchUp)
+.ruby-lsp/
+vendor/
+.bundle/
+/log/
+/tmp/
+
+# PHP (PTL Web Viewer Backend)
+/vendor/
+.phpunit.result.cache
+
+# Python (Nesting Algorithms / Scripting)
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+.env/
+build/
+dist/
+*.egg-info/
+
+# Node.js (React/Three.js Web Viewer)
+node_modules/
+.eslintcache
+
+# C# / .NET
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+
+# --- BẢO MẬT ---
+.env
+.env.*
+config/database.yml
+*.key
+*.cert
+
+# --- EDITOR & CACHE ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.sass-cache/
